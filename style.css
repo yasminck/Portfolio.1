@@ -1,0 +1,285 @@
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body{
+    width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(images/background.2.png);
+}
+
+
+header{
+    height: 118px;
+    text-align: center;
+}
+
+
+nav{
+    background-color: rgba(0, 0, 0, 0.728);
+    padding: 20px 0;
+    text-align: center;
+}
+
+main{
+    background-color: rgba(255, 255, 255, 0);
+    text-align: center;
+    padding: 80px 240px 0 240px;
+
+}
+
+
+h1{
+    font-size: 70px;
+    color:rgba(255, 255, 255, 0.879);
+}
+
+p{
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+}
+
+h2{
+    font-size: 60px;
+    color:  rgba(255, 255, 255, 0.988);
+}
+
+h3{
+    font-size: 35px;
+    color:  rgba(126, 9, 22, 0.886);
+}
+
+h4{
+    font-size: 30px;
+    color: rgba(126, 9, 22, 0.886);
+}
+
+h5{
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+}
+
+
+nav a{
+    color: rgba(228, 25, 45, 0.988);
+    text-decoration: none;
+    border: none;
+    padding: 0px 10px;
+    font-size: 22px;
+}
+
+nav a:hover{
+    background-color: rgba(254, 199, 199, 0.934);
+}
+
+.logo{
+    width: 12px;
+}
+
+.photoshop a{
+    color:rgba(255, 255, 255, 0.886); 
+}
+
+.photoshop a:hover{
+    background-color: rgba(255, 210, 210, 0.927);
+}
+
+
+.adobe a{
+    color:rgba(255, 0, 25, 0.845);
+}
+
+.adobe a:hover{
+    background-color: rgba(255, 210, 210, 0.927);
+}
+
+.billede{
+    width: 600px;
+    height:400px;
+    margin-right: -50%;
+    margin-top: -300px;
+}
+
+.footer{
+   text-align: center;
+   padding: 2px;
+
+}
+
+
+.input[type=text], select, textarea {
+    width: 50%;
+    padding: 12px;
+    border: 1px solid #713636b3;
+    box-sizing: border-box;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    resize: vertical; /* Allow the user to vertically resize the textarea (not horisontally) */
+  }
+
+  .input[type=email], select, textarea {
+    width: 50%;
+    padding: 20px;
+    border-radius: 2px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 20px;
+    }
+
+  /* Style the submit button with a specific backgroundcolor etc */
+
+  input[type="submit"] {
+    background-color: #e18585b3;
+    color: rgb(0, 0, 0);
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  /* When mopving the mouse over the submit button, add a darker freen color */
+  .input[type=send]:hover{
+    background-color: #ffffff;
+   
+  }
+
+  .Hovedelement{
+    display: flex;
+  }
+  
+  .Hovedelement > div{
+      display: flex;
+      width: 50%;
+  }
+
+  .Hovedelement img{
+      width: 100%;
+  }
+
+  .Hovedelement p{
+      text-align: left;
+      padding-left: 1em;
+  }
+ 
+.om_mig{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.hovedelement_1 img{
+    width:205px; 
+    /* rette billederne størrelse */
+    padding-left: 10px;
+    padding-right: 10px;
+    
+}
+
+.hovedelement_1{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+.hovedelement_1 > div{
+      display: flex;
+      width: 1000%;
+      justify-content: center;
+  }
+
+  .gallery{
+      background-color: rgba(247, 130, 121, 0.639);
+      display: flex;
+      margin: 1em;
+      padding: 1em; 
+      flex-wrap: wrap;
+  }
+
+  .box_1{
+      background-color: rgba(36, 36, 36, 0.536);
+      display: flex;
+      margin: 1.2em;
+      padding: 1.3em; 
+      flex-direction: column;
+      color: white;
+  }
+
+  .box_1 > img{
+      width:400px;
+  }
+/*
+  .box < a > img{
+    width:400px;
+  }
+  */
+
+  .kontakt{
+      display: flex;
+      flex-direction: column;
+      width: 500px;
+      margin-left: auto;
+      margin-right: auto;
+  }
+
+  .icons{
+    width:33px;
+    margin-left:13px;
+    margin-right: 13px;
+}
+
+.hovedelement_2 img{
+    width:500px; 
+    /* rette billederne størrelse */
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.hovedelement_2{
+    display: flex;
+    flex-wrap: wrap;
+}
+  
+.hovedelement_2 > div{
+      display: flex;
+      justify-content: center;
+}
+
+  .portfolio{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.hovedelement_3 img{
+    width:315px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.hovedelement_3{
+    display: flex;
+    flex-wrap: wrap;
+}
+  
+.hovedelement_3 > div{
+      display: flex;
+      justify-content: center;
+}
+
+.portfolio_1{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+  
+
+
+
+
+  
+
+  
+
